@@ -1,6 +1,6 @@
 # Simple Playlist Server (GoTo Impact)
 
-This repository contains the code for a simple Spotify Playlist Management app. The app allows users to add songs to a playlist, play songs from the playlist, and retrieve a list of all the songs in the playlist. The app uses Node.js, Express.js, and MongoDB, with Mongoose as the ODM (Object Data Modeling) library.
+This repository contains the code for a simple Spotify Playlist Server. The server allows users to add songs to a playlist, play songs from the playlist, and retrieve a list of all the songs in the playlist. The app uses Node.js, Express.js, and MongoDB, with Mongoose as the ODM (Object Data Modeling) library.
 
 ## Requirements
 
