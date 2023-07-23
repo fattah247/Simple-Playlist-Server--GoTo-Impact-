@@ -3,8 +3,9 @@ const mongoose = require('mongoose');
 
 const songSchema = new mongoose.Schema({
   title: { type: String, required: true },
-  artists: { type: [String], required: true },
+  artists: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Artist' }],
   url: { type: String, required: true },
+  playCount: { type: Number, default: 0 },
 });
 
 const Song = mongoose.model('Song', songSchema);
